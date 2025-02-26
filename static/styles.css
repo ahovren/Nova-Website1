@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e2e;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #252542;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #ffcc00;
+}
+.invite-btn {
+    background: #ffcc00;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 75px 20px 100px; /* Adjusted padding for better spacing */
+    background: linear-gradient(135deg, #252542, #1e1e2e);
+    box-sizing: border-box;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.hero-buttons .btn, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn {
+    background: #ffcc00;
+    color: black;
+}
+.btn-secondary {
+    background: #444;
+    color: white;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 80px 20px; /* Increased padding for better spacing */
+    box-sizing: border-box;
+}
+.features h2 {
+    margin-bottom: 30px;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 10%; /* Centering and better margins */
+    box-sizing: border-box;
+}
+.feature-item {
+    background: #252542;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.feature-item:hover {
+    transform: scale(1.05);
+}
+
+/* Commands Section */
+.commands {
+    text-align: center;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+.command-search {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: none;
+}
+.command-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.command-list li {
+    background: #252542;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Stats Section */
+.stats {
+    text-align: center;
+    padding: 80px 20px;
+    background: #212133;
+    box-sizing: border-box;
+}
+.stats span {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Privacy Policy Section */
+.privacy-policy {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #252542;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.privacy-policy h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #ffcc00;
+}
+
+.privacy-policy h2 {
+    font-size: 1.5em;
+    color: #ffcc00;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+.privacy-policy p, .privacy-policy ul {
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+.privacy-policy ul {
+    padding-left: 20px;
+}
+
+.privacy-policy ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #252542;
+    box-sizing: border-box;
+}
+
+.footer-docs {
+    color: white;
+    text-decoration: none;
+}
+
+/* Countdown*/
+.timer_body {
+    text-align: center;
+    padding: 50px 20px 20px; /* Adjusted padding for better spacing */
+    background: linear-gradient(135deg, #252542, #1e1e2e);
+    box-sizing: border-box;
+}
+
+.countdown {
+    font-size: 2em;
+    font-weight: bold;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}

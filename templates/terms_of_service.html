@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }} ">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Nova</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Terms of Service Section -->
+    <section class="privacy-policy">
+        <h1>Terms of Service</h1>
+        <p>Last updated: 2/25/2025</p>
+        
+        <h2>1. Introduction</h2>
+        <p>Welcome to our Discord bot! By using our bot, you agree to these Terms of Service. If you do not agree, please refrain from using the bot. We strive to create an inclusive and welcoming environment for all users.</p>
+        
+        <h2>2. Use of the Bot</h2>
+        <ul>
+            <li>Our bot is designed to enhance your Discord experience in a safe and respectful manner.</li>
+            <li>Do not use the bot for harmful, discriminatory, illegal, or malicious activities.</li>
+            <li>We may collect and analyze interactions to improve the bot while respecting your privacy.</li>
+            <li>We reserve the right to update, modify, or discontinue the bot at any time to serve the community better.</li>
+        </ul>
+        
+        <h2>3. User Responsibilities</h2>
+        <ul>
+            <li>Engage with the bot in a way that is respectful to others.</li>
+            <li>Ensure that you have permission to invite the bot to a server before doing so.</li>
+            <li>Adhere to Discord’s Community Guidelines and Terms of Service.</li>
+            <li>Report any bugs, abuse, or inappropriate use of the bot to our support team.</li>
+        </ul>
+        
+        <h2>4. Accessibility and Inclusivity</h2>
+        <p>We are committed to ensuring our bot is accessible to all users, regardless of ability. If you have any feedback on how we can improve accessibility, please reach out to us.</p>
+        
+        <h2>5. Limitation of Liability</h2>
+        <p>While we strive to provide a high-quality experience, we are not responsible for any unintended issues, including but not limited to disruptions, data loss, or damages caused by using the bot.</p>
+        
+        <h2>6. Changes to These Terms</h2>
+        <p>We may periodically update these terms to improve clarity and inclusivity. Continued use of the bot after updates signifies acceptance of the revised terms.</p>
+        
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, concerns, or suggestions, we encourage you to reach out through our support server. We value your input in making our bot a better and more inclusive experience for all.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Nova | <a href="{{ url_for('privacypolicy') }}" class="footer-docs">Privacy Policy</a> | <a href="{{ url_for('terms_of_service') }}" class="footer-docs">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

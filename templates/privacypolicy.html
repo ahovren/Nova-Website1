@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }} ">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Nova</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Privacy Policy Section -->
+    <section class="privacy-policy">
+        <h1>Privacy Policy</h1>
+        <p>Effective Date: 2/25/2025</p>
+        
+        <h2>1. Introduction</h2>
+        <p>Welcome to Nova ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect user data when interacting with our Discord bot. By using Nova, you agree to the practices described in this policy.</p>
+        
+        <h2>2. Information We Collect</h2>
+        <ul>
+            <li><strong>User Data:</strong> User IDs, usernames, and server IDs for functionality purposes.</li>
+            <li><strong>Message Data:</strong> We do not store messages but may process them temporarily to execute bot commands.</li>
+            <li><strong>Server Data:</strong> Server settings, preferences, and administrative configurations for bot functionality.</li>
+        </ul>
+        
+        <h2>3. How We Use Your Information</h2>
+        <ul>
+            <li>Providing responses to commands.</li>
+            <li>Customizing bot interactions based on server settings.</li>
+            <li>Improving performance and debugging issues.</li>
+        </ul>
+        
+        <h2>4. Data Security</h2>
+        <ul>    
+            <li>We implement security measures to protect your data but cannot guarantee 100% security.</li>
+            <li>We do not permanently store personal data beyond what is necessary for bot functionality.</li>
+            <li>Any temporarily stored data is automatically deleted after a reasonable time.</li>
+            <li>We take reasonable security measures to protect user data from unauthorized access.</li>
+        </ul>
+
+        <h2>5. Data Sharing and Third-Party Services</h2>
+        <ul>
+            <li>We do not share your information with third parties except as necessary for bot functionality.</li>
+            <li>If required by law, we may share data with authorities in compliance with legal obligations.</li>
+        </ul>
+
+        <h2>6. User Rights and Control</h2>
+        <ul>
+            <li>You may request data removal by contacting us (Contact information listed below).</li>
+            <li>Users may remove Nova from a server at any time to cease data collection.</li>
+        </ul>
+
+        <h2>7. Changes to This Policy</h2>
+        <p>We may update this policy periodically. We encourage you to review it regularly.</p>      
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions, contact us via our support server.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Nova | <a href="{{ url_for('privacypolicy') }}" class="footer-docs">Privacy Policy</a> | <a href="{{ url_for('terms_of_service') }}" class="footer-docs">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
